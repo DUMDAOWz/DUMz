@@ -1,0 +1,268 @@
+[0.000000] (-) TimerEvent: {}
+[0.000075] (joy) JobQueued: {'identifier': 'joy', 'dependencies': OrderedDict()}
+[0.000090] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict([('joy', '/home/testubuntu/tni_ws/install/joy')])}
+[0.000101] (joy) JobStarted: {'identifier': 'joy'}
+[0.008423] (joy) JobProgress: {'identifier': 'joy', 'progress': 'cmake'}
+[0.009714] (joy) JobProgress: {'identifier': 'joy', 'progress': 'build'}
+[0.009760] (joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/testubuntu/tni_ws/build/joy', '--', '-j1', '-l1'], 'cwd': '/home/testubuntu/tni_ws/build/joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'testubuntu'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/testubuntu'), ('OLDPWD', '/home/testubuntu/tni_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '1733'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'testubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'testubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Testubuntu:@/tmp/.ICE-unix/1255,unix/Testubuntu:/tmp/.ICE-unix/1255'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8136f6d1_7750_41e4_87dc_1e29dffc0baf'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VU4ML2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/testubuntu/tni_ws/build/joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.085496] (joy) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target joy\x1b[0m\n'}
+[0.099626] (-) TimerEvent: {}
+[0.122210] (joy) StdoutLine: {'line': b'[ 20%] Built target joy\n'}
+[0.130147] (joy) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target joy_node\x1b[0m\n'}
+[0.145037] (joy) StdoutLine: {'line': b'[ 40%] Built target joy_node\n'}
+[0.154215] (joy) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target game_controller\x1b[0m\n'}
+[0.167713] (joy) StdoutLine: {'line': b'[ 60%] Built target game_controller\n'}
+[0.176956] (joy) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target game_controller_node\x1b[0m\n'}
+[0.185583] (joy) StdoutLine: {'line': b'[ 80%] Built target game_controller_node\n'}
+[0.193930] (joy) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target joy_enumerate_devices\x1b[0m\n'}
+[0.199667] (-) TimerEvent: {}
+[0.199810] (joy) StdoutLine: {'line': b'[100%] Built target joy_enumerate_devices\n'}
+[0.204842] (joy) CommandEnded: {'returncode': 0}
+[0.225299] (joy) JobProgress: {'identifier': 'joy', 'progress': 'install'}
+[0.230562] (joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/testubuntu/tni_ws/build/joy'], 'cwd': '/home/testubuntu/tni_ws/build/joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'testubuntu'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/testubuntu'), ('OLDPWD', '/home/testubuntu/tni_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '1733'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'testubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'testubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Testubuntu:@/tmp/.ICE-unix/1255,unix/Testubuntu:/tmp/.ICE-unix/1255'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8136f6d1_7750_41e4_87dc_1e29dffc0baf'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VU4ML2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/testubuntu/tni_ws/build/joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.236162] (joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.238977] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/lib/libjoy.so\n'}
+[0.240889] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/lib/joy/joy_node\n'}
+[0.241909] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/lib/libgame_controller.so\n'}
+[0.242548] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/lib/joy/game_controller_node\n'}
+[0.243187] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/lib/joy/joy_enumerate_devices\n'}
+[0.243584] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/include/joy\n'}
+[0.243861] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/include/joy/joy\n'}
+[0.244013] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/include/joy/joy/game_controller.hpp\n'}
+[0.244082] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/include/joy/joy/joy.hpp\n'}
+[0.244287] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/config\n'}
+[0.244556] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/config/joy-params.yaml\n'}
+[0.244641] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/launch\n'}
+[0.244892] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/launch/joy-launch.py\n'}
+[0.245014] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/launch/joy-composed-launch.py\n'}
+[0.245373] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/ament_index/resource_index/package_run_dependencies/joy\n'}
+[0.245716] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/ament_index/resource_index/parent_prefix_path/joy\n'}
+[0.246003] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/environment/ament_prefix_path.sh\n'}
+[0.246096] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/environment/ament_prefix_path.dsv\n'}
+[0.246177] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/environment/path.sh\n'}
+[0.246255] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/environment/path.dsv\n'}
+[0.246327] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/local_setup.bash\n'}
+[0.246400] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/local_setup.sh\n'}
+[0.246474] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/local_setup.zsh\n'}
+[0.246564] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/local_setup.dsv\n'}
+[0.246641] (joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/joy/share/joy/package.dsv\n'}
+[0.247127] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/ament_index/resource_index/packages/joy\n'}
+[0.247301] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/ament_index/resource_index/rclcpp_components/joy\n'}
+[0.248218] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/cmake/export_joyExport.cmake\n'}
+[0.248314] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/cmake/export_joyExport-noconfig.cmake\n'}
+[0.248629] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/cmake/export_game_controllerExport.cmake\n'}
+[0.248721] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/cmake/export_game_controllerExport-noconfig.cmake\n'}
+[0.248805] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.248877] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.248951] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/cmake/joyConfig.cmake\n'}
+[0.249008] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/cmake/joyConfig-version.cmake\n'}
+[0.249075] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/testubuntu/tni_ws/install/joy/share/joy/package.xml\n'}
+[0.250321] (joy) CommandEnded: {'returncode': 0}
+[0.288053] (joy) JobEnded: {'identifier': 'joy', 'rc': 0}
+[0.288479] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[0.294190] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'cmake'}
+[0.294215] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '/home/testubuntu/tni_ws/src/teleop_twist_joy', '-DCMAKE_INSTALL_PREFIX=/home/testubuntu/tni_ws/install/teleop_twist_joy'], 'cwd': '/home/testubuntu/tni_ws/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'testubuntu'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/testubuntu/tni_ws/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/testubuntu'), ('OLDPWD', '/home/testubuntu/tni_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '1733'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'testubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'testubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Testubuntu:@/tmp/.ICE-unix/1255,unix/Testubuntu:/tmp/.ICE-unix/1255'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8136f6d1_7750_41e4_87dc_1e29dffc0baf'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VU4ML2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/testubuntu/tni_ws/install/joy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/testubuntu/tni_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/testubuntu/tni_ws/install/joy:/opt/ros/humble')]), 'shell': False}
+[0.300853] (-) TimerEvent: {}
+[0.400057] (teleop_twist_joy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401045] (-) TimerEvent: {}
+[0.466581] (teleop_twist_joy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.475122] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.501346] (-) TimerEvent: {}
+[0.513008] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.516879] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.517471] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.518075] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.521418] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.569256] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.573429] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.573719] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.574055] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.575801] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.601382] (-) TimerEvent: {}
+[0.667998] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.702429] (-) TimerEvent: {}
+[0.732530] (teleop_twist_joy) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.774102] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.779373] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.787776] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.801376] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.802501] (-) TimerEvent: {}
+[0.817022] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901736] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.902596] (-) TimerEvent: {}
+[0.949548] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.952077] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.002727] (-) TimerEvent: {}
+[1.019297] (teleop_twist_joy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.040144] (teleop_twist_joy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.066557] (teleop_twist_joy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.076519] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.103114] (-) TimerEvent: {}
+[1.119650] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.119926] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.166327] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.167275] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.203215] (-) TimerEvent: {}
+[1.260203] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.303312] (-) TimerEvent: {}
+[1.309723] (teleop_twist_joy) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.374318] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[1.403707] (-) TimerEvent: {}
+[1.417064] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[1.417658] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[1.459549] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[1.459908] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[1.502624] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[1.504107] (-) TimerEvent: {}
+[1.506001] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.571229] (teleop_twist_joy) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.584290] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.589275] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.589435] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.589494] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.589541] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.600247] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.604241] (-) TimerEvent: {}
+[1.612309] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.612483] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/testubuntu/tni_ws/src/teleop_twist_joy/include>\n'}
+[1.612545] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.613271] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.614072] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.614707] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.615373] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.618878] (teleop_twist_joy) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.627382] (teleop_twist_joy) StdoutLine: {'line': b'-- Generating done\n'}
+[1.628309] (teleop_twist_joy) StdoutLine: {'line': b'-- Build files have been written to: /home/testubuntu/tni_ws/build/teleop_twist_joy\n'}
+[1.633958] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[1.634172] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'build'}
+[1.634185] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/testubuntu/tni_ws/build/teleop_twist_joy', '--', '-j1', '-l1'], 'cwd': '/home/testubuntu/tni_ws/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'testubuntu'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/testubuntu/tni_ws/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/testubuntu'), ('OLDPWD', '/home/testubuntu/tni_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '1733'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'testubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'testubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Testubuntu:@/tmp/.ICE-unix/1255,unix/Testubuntu:/tmp/.ICE-unix/1255'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8136f6d1_7750_41e4_87dc_1e29dffc0baf'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VU4ML2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/testubuntu/tni_ws/install/joy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/testubuntu/tni_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/testubuntu/tni_ws/install/joy:/opt/ros/humble')]), 'shell': False}
+[1.662545] (teleop_twist_joy) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o\x1b[0m\n'}
+[1.704350] (-) TimerEvent: {}
+[1.804543] (-) TimerEvent: {}
+[1.904869] (-) TimerEvent: {}
+[2.005218] (-) TimerEvent: {}
+[2.107336] (-) TimerEvent: {}
+[2.208100] (-) TimerEvent: {}
+[2.313488] (-) TimerEvent: {}
+[2.428837] (-) TimerEvent: {}
+[2.540163] (-) TimerEvent: {}
+[2.644582] (-) TimerEvent: {}
+[2.760457] (-) TimerEvent: {}
+[2.861141] (-) TimerEvent: {}
+[2.961855] (-) TimerEvent: {}
+[3.070365] (-) TimerEvent: {}
+[3.181804] (-) TimerEvent: {}
+[3.286663] (-) TimerEvent: {}
+[3.387683] (-) TimerEvent: {}
+[3.499963] (-) TimerEvent: {}
+[3.600536] (-) TimerEvent: {}
+[3.705672] (-) TimerEvent: {}
+[3.812355] (-) TimerEvent: {}
+[3.915931] (-) TimerEvent: {}
+[4.017741] (-) TimerEvent: {}
+[4.124191] (-) TimerEvent: {}
+[4.226372] (-) TimerEvent: {}
+[4.327564] (-) TimerEvent: {}
+[4.432046] (-) TimerEvent: {}
+[4.544043] (-) TimerEvent: {}
+[4.645377] (-) TimerEvent: {}
+[4.748444] (-) TimerEvent: {}
+[4.849461] (-) TimerEvent: {}
+[4.953130] (-) TimerEvent: {}
+[5.058398] (-) TimerEvent: {}
+[5.172291] (-) TimerEvent: {}
+[5.278300] (-) TimerEvent: {}
+[5.392523] (-) TimerEvent: {}
+[5.493756] (-) TimerEvent: {}
+[5.603553] (-) TimerEvent: {}
+[5.705717] (-) TimerEvent: {}
+[5.807951] (-) TimerEvent: {}
+[5.910429] (-) TimerEvent: {}
+[6.013954] (-) TimerEvent: {}
+[6.129297] (-) TimerEvent: {}
+[6.230855] (-) TimerEvent: {}
+[6.331998] (-) TimerEvent: {}
+[6.441984] (-) TimerEvent: {}
+[6.549004] (-) TimerEvent: {}
+[6.656927] (-) TimerEvent: {}
+[6.764911] (-) TimerEvent: {}
+[6.868385] (-) TimerEvent: {}
+[6.981087] (-) TimerEvent: {}
+[7.091888] (-) TimerEvent: {}
+[7.192212] (-) TimerEvent: {}
+[7.214897] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_twist_joy.so\x1b[0m\n'}
+[7.292336] (-) TimerEvent: {}
+[7.392615] (-) TimerEvent: {}
+[7.500887] (-) TimerEvent: {}
+[7.529024] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] Built target teleop_twist_joy\n'}
+[7.545225] (teleop_twist_joy) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o\x1b[0m\n'}
+[7.600991] (-) TimerEvent: {}
+[7.701189] (-) TimerEvent: {}
+[7.801457] (-) TimerEvent: {}
+[7.909362] (-) TimerEvent: {}
+[8.013480] (-) TimerEvent: {}
+[8.115868] (-) TimerEvent: {}
+[8.230755] (-) TimerEvent: {}
+[8.342751] (-) TimerEvent: {}
+[8.447901] (-) TimerEvent: {}
+[8.555221] (-) TimerEvent: {}
+[8.669141] (-) TimerEvent: {}
+[8.786676] (-) TimerEvent: {}
+[8.898606] (-) TimerEvent: {}
+[9.005943] (-) TimerEvent: {}
+[9.119567] (-) TimerEvent: {}
+[9.248951] (-) TimerEvent: {}
+[9.367363] (-) TimerEvent: {}
+[9.470064] (-) TimerEvent: {}
+[9.576718] (-) TimerEvent: {}
+[9.687963] (-) TimerEvent: {}
+[9.759308] (teleop_twist_joy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable teleop_node\x1b[0m\n'}
+[9.797125] (-) TimerEvent: {}
+[9.883223] (teleop_twist_joy) StdoutLine: {'line': b'[100%] Built target teleop_twist_joy_node\n'}
+[9.890320] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[9.904056] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'install'}
+[9.904083] (-) TimerEvent: {}
+[9.904179] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/testubuntu/tni_ws/build/teleop_twist_joy'], 'cwd': '/home/testubuntu/tni_ws/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'testubuntu'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/testubuntu/tni_ws/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/testubuntu'), ('OLDPWD', '/home/testubuntu/tni_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '1733'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'testubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'testubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Testubuntu:@/tmp/.ICE-unix/1255,unix/Testubuntu:/tmp/.ICE-unix/1255'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8136f6d1_7750_41e4_87dc_1e29dffc0baf'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VU4ML2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/testubuntu/tni_ws/install/joy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/testubuntu/tni_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/testubuntu/tni_ws/install/joy:/opt/ros/humble')]), 'shell': False}
+[9.907878] (teleop_twist_joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.908097] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so\n'}
+[9.911285] (teleop_twist_joy) StdoutLine: {'line': b'-- Set runtime path of "/home/testubuntu/tni_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so" to ""\n'}
+[9.911421] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node\n'}
+[9.911645] (teleop_twist_joy) StdoutLine: {'line': b'-- Set runtime path of "/home/testubuntu/tni_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node" to ""\n'}
+[9.911724] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/include/teleop_twist_joy\n'}
+[9.911823] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy\n'}
+[9.911900] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy.hpp\n'}
+[9.912032] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy_export.h\n'}
+[9.912147] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch\n'}
+[9.912698] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py\n'}
+[9.913204] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/config\n'}
+[9.913603] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml\n'}
+[9.914188] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml\n'}
+[9.914775] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml\n'}
+[9.915154] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml\n'}
+[9.915467] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml\n'}
+[9.916646] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh\n'}
+[9.916908] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv\n'}
+[9.917075] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy\n'}
+[9.917250] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy\n'}
+[9.919003] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh\n'}
+[9.919384] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv\n'}
+[9.919527] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh\n'}
+[9.919872] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv\n'}
+[9.919999] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash\n'}
+[9.920111] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh\n'}
+[9.920220] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh\n'}
+[9.920323] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv\n'}
+[9.920428] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv\n'}
+[9.920554] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy\n'}
+[9.920677] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy\n'}
+[9.920814] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport.cmake\n'}
+[9.920938] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport-noconfig.cmake\n'}
+[9.921054] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.921168] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.921781] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.921933] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake\n'}
+[9.922036] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake\n'}
+[9.922139] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/testubuntu/tni_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml\n'}
+[9.923360] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[9.955076] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 0}
+[9.955570] (-) EventReactorShutdown: {}

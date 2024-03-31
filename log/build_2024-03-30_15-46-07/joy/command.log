@@ -1,0 +1,4 @@
+Invoking command in '/home/testubuntu/tni_ws/build/joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/testubuntu/tni_ws/build/joy -- -j1 -l1
+Invoked command in '/home/testubuntu/tni_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/testubuntu/tni_ws/build/joy -- -j1 -l1
+Invoking command in '/home/testubuntu/tni_ws/build/joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/testubuntu/tni_ws/build/joy
+Invoked command in '/home/testubuntu/tni_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/testubuntu/tni_ws/build/joy
